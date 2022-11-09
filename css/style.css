@@ -1,0 +1,354 @@
+.container {
+  width: 1200px;
+  background-color: #fff;
+  height: 90px;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  align-items: center;
+}
+
+.nav-ul .li {
+  text-transform: uppercase;
+  color: #83888F;
+  font-family: "Barlow", sans-serif;
+}
+
+.navbar__nav-logo {
+  display: flex;
+  padding-left: 20px;
+}
+
+.nav-ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.hero {
+  width: 1200px;
+  height: 700px;
+  background-image: url(../IMG/Bitmap\ \(2\).jpg);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  border-radius: none;
+}
+
+.hero .about {
+  font-family: "Fraunces", serif;
+  color: #fff;
+  font-size: 40px;
+  padding-left: 8%;
+  padding-top: 11%;
+}
+
+.hero .wrapper {
+  color: #FEFCF7;
+  font-size: 16px;
+  margin-left: 8%;
+  margin-top: 2%;
+  opacity: 0.9;
+}
+
+.wrapper p:nth-child(4) {
+  margin-top: 0.7%;
+}
+
+.wrapper p:nth-child(3) {
+  margin-top: 0.7%;
+}
+
+.wrapper p:nth-child(2) {
+  margin-top: 0.7%;
+}
+
+.intro .card-1 {
+  width: 440px;
+  height: 520px;
+  background-repeat: no-repeat;
+  background-image: url(../IMG/Bitmap\ \(15\).png);
+  margin-left: 80px;
+  border-radius: 10px;
+  margin-top: -100px;
+}
+
+.intro .sarlavha {
+  margin-left: 650px;
+  font-size: 50px;
+  position: absolute;
+  margin-top: 90px;
+  color: #333D4B;
+  font-family: "Fraunces", serif;
+}
+
+.intro .wrapper-2 {
+  margin-left: 650px;
+  margin-top: -330px;
+  color: #333D4B;
+}
+
+.wrapper-2 p:nth-child(10) {
+  margin-top: 5px;
+}
+
+.wrapper-2 p:nth-child(9) {
+  margin-top: 5px;
+}
+
+.wrapper-2 p:nth-child(8) {
+  margin-top: 5px;
+}
+
+.wrapper-2 p:nth-child(7) {
+  margin-top: 5px;
+}
+
+.wrapper-2 p:nth-child(6) {
+  margin-top: 5px;
+}
+
+.wrapper-2 p:nth-child(5) {
+  margin-top: 5px;
+}
+
+.wrapper-2 p:nth-child(4) {
+  margin-top: 5px;
+}
+
+.wrapper-2 p:nth-child(3) {
+  margin-top: 5px;
+}
+
+.wrapper-2 p:nth-child(2) {
+  margin-top: 5px;
+}
+
+.zero {
+  width: 1200px;
+  border-radius: 10px;
+  height: 465px;
+  margin: 700px auto;
+  background-color: #2C343E;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.zero .sarlavha {
+  font-size: 40px;
+  color: white;
+  font-family: "Fraunces", serif;
+  padding-left: 110px;
+  padding-top: 100px;
+}
+
+.zero .wrapper-3 {
+  color: #FEFCF7;
+  opacity: 0.8;
+  padding-left: 110px;
+  padding-top: 50px;
+  font-family: "Fraunces", serif;
+  font-size: 16px;
+}
+
+.wrapper-3 p:nth-child(5) {
+  margin-top: 10px;
+}
+
+.wrapper-3 p:nth-child(4) {
+  margin-top: 10px;
+}
+
+.wrapper-3 p:nth-child(3) {
+  margin-top: 10px;
+}
+
+.wrapper-3 p:nth-child(2) {
+  margin-top: 10px;
+}
+
+.card-2 {
+  width: 445px;
+  height: 470px;
+  background-repeat: no-repeat;
+  background-color: black;
+  border-radius: 10px;
+  margin-left: 680px;
+  margin-top: -400px;
+  background-image: url(../IMG/Bitmap\ \(16\).png);
+}
+
+.earth .sarlavha {
+  color: #83888F;
+  font-size: 24px;
+  margin-top: -500px;
+  margin-left: 150px;
+}
+
+.card-3 img {
+  padding-top: 100px;
+  padding-left: 150px;
+  display: inline-block;
+}
+
+.first {
+  color: #333D4B;
+  font-size: 36px;
+  font-family: "Fraunces", serif;
+  padding-top: 70px;
+  padding-left: 150px;
+}
+
+.earth .texts {
+  margin-top: 30px;
+  margin-left: 150px;
+  font-size: 16px;
+  color: #333D4B;
+}
+
+.texts .text4 {
+  margin-top: 7px;
+}
+
+.texts .text3 {
+  margin-top: 7px;
+}
+
+.texts .text2 {
+  margin-top: 7px;
+}
+
+.card-4 img {
+  position: relative;
+  left: 520px;
+  top: -295px;
+}
+
+.second {
+  color: #333D4B;
+  font-size: 36px;
+  font-family: "Fraunces", serif;
+  margin-top: -220px;
+  padding-left: 500px;
+}
+
+.texts-2 {
+  margin-top: 30px;
+  margin-left: 500px;
+  font-size: 16px;
+  color: #333D4B;
+}
+
+.texts-2 .text4 {
+  margin-top: 7px;
+}
+
+.texts-2 .text3 {
+  margin-top: 7px;
+}
+
+.texts-2 .text2 {
+  margin-top: 7px;
+}
+
+.card-4 {
+  margin-left: 30px;
+}
+
+.card-5 {
+  margin-left: 900px;
+  margin-top: -300px;
+}
+
+.third {
+  color: #333D4B;
+  font-size: 36px;
+  font-family: "Fraunces", serif;
+  margin-top: 80px;
+}
+
+.texts-3 {
+  font-size: 16px;
+  color: #333D4B;
+  margin-top: 30px;
+}
+
+.texts-3 .text4 {
+  margin-top: 7px;
+}
+
+.texts-3 .text3 {
+  margin-top: 7px;
+}
+
+.texts-3 .text2 {
+  margin-top: 7px;
+}
+
+.moon {
+  width: 1200px;
+  background-color: #2C343E;
+  height: 130px;
+  margin: 500px auto;
+}
+
+.moon__coffee {
+  position: relative;
+  top: 50px;
+  left: 80px;
+}
+
+.moon__ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  width: 400px;
+  margin-left: 300px;
+  margin-top: 30px;
+}
+
+.ul__li {
+  font-size: 12px;
+  color: #83888F;
+}
+
+.moon .icon-1 {
+  display: flex;
+  justify-content: end;
+  font-size: 35px;
+  position: relative;
+  top: -25px;
+  left: -240px;
+}
+
+.moon .icon-2 {
+  display: flex;
+  justify-content: end;
+  font-size: 35px;
+  position: relative;
+  top: -60px;
+  left: -190px;
+}
+
+.moon .icon-3 {
+  display: flex;
+  justify-content: end;
+  font-size: 35px;
+  position: relative;
+  top: -95px;
+  left: -140px;
+}/*# sourceMappingURL=style.css.map */
